@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".SplashActivity">
 
     <ProgressBar
@@ -25,6 +26,7 @@
         android:text="Welcome!"
         android:textAlignment="center"
         android:textAllCaps="true"
+        android:textColor="#AC3333"
         android:textSize="48sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
